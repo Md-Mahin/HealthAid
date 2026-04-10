@@ -1,0 +1,40 @@
+.root {
+    -fx-font-family: "Jost";
+}
+
+.healthaid-table .column-header-background,
+.healthaid-table .column-header,
+.healthaid-table .filler,
+.lab-request-table .column-header-background,
+.lab-request-table .column-header,
+.lab-request-table .filler {
+    -fx-background-color: #1b6f55;
+}
+
+.healthaid-table .column-header .label,
+.lab-request-table .column-header .label {
+    -fx-text-fill: #13e17a;
+}
+
+.healthaid-table,
+.lab-request-table {
+    -fx-background-color: #1b6f55;
+    -fx-control-inner-background: #1b6f55;
+    -fx-control-inner-background-alt: #157a52;
+    -fx-table-cell-border-color: rgb(255, 255, 255);
+    -fx-text-background-color: white;
+}
+
+.sidebar-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-padding: 0;
+}
+
+.sidebar-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.sidebar-scroll > .corner {
+    -fx-background-color: transparent;
+}
